@@ -12,7 +12,7 @@ from sklearn import model_selection, linear_model
 from sklearn.model_selection import train_test_split
 from sklearn.impute import SimpleImputer  # NEW: Imputer to handle NaNs
 
-file_path = "C:/Users/gunta/OneDrive - Queen's University/Second Year/COVID-19/SARS_CoV_2_sequences_global.fasta"
+file_path = "" #File location here
 
 # Load sequences
 sequences = [r for r in SeqIO.parse(file_path, 'fasta')]
